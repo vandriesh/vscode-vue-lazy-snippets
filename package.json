@@ -7,7 +7,7 @@
     "publisher": "vitalieandries",
     "displayName": "vscode-vue-lazy-snippets",
     "description": "Snippets for making easier to start writing vue code and tests",
-    "version": "0.1.0",
+    "version": "0.2.0",
     "engines": {
         "vscode": "^1.39.0"
     },
