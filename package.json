@@ -5,6 +5,10 @@
         "email": "vitalie.andries@gmail.com"
     },
     "publisher": "vitalieandries",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/vandriesh/vscode-vue-lazy-snippets"
+    },
     "displayName": "vscode-vue-lazy-snippets",
     "description": "Snippets for making easier to start writing vue code and tests",
     "version": "0.2.0",
