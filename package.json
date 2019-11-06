@@ -6,7 +6,7 @@
     },
     "displayName": "vscode-vue-lazy-snippets",
     "description": "Snippets for making easier to start writing vue code and tests",
-    "version": "0.0.1",
+    "version": "0.1.0",
     "engines": {
         "vscode": "^1.39.0"
     },
@@ -15,14 +15,14 @@
         "Snippets"
     ],
     "keywords": [
-		"Vue",
-		"Jest",
-		"TypeScript",
-		"Test",
-		"Testing",
-		"TDD",
-		"Easy"
-	],
+        "Vue",
+        "Jest",
+        "TypeScript",
+        "Test",
+        "Testing",
+        "TDD",
+        "Easy"
+    ],
     "contributes": {
         "snippets": [
             {
