@@ -1,0 +1,24 @@
+{
+    "Vue Component spec to test a property": {
+        "prefix": "tvcwp",
+        "description": "Test vue component with a property",
+        "body": [
+            "import { mount, Wrapper } from '@vue/test-utils';",
+            "import ${1:ComponentName} from './${1:ComponentName}.vue';",
+            "",
+            "describe('${1:ComponentName}', () => {",
+            "\tit('should render', () => {",
+            "\t\tconst aProperty = 'aProperty';",
+            "\t\tconst wrapper: Wrapper<${1:ComponentName}> = mount(${1:ComponentName}, {",
+            "\t\t\tpropsData: {",
+            "\t\t\t\taProperty",
+            "\t\t\t}",
+            "\t\t});",
+            "\t\t",
+            "\t\tconst domElement = wrapper.find('.aPropertyClassName').element;",
+            "\t\texpect(domElement.textContent).toMatch(aProperty);",
+            "\t});",
+            "});$0"
+        ]
+      }
+}

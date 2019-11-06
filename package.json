@@ -1,0 +1,34 @@
+{
+    "name": "vscode-vue-lazy-snippets",
+    "author": {
+        "name": "Vitalie Andries",
+        "email": "vitalie.andries@gmail.com"
+    },
+    "displayName": "vscode-vue-lazy-snippets",
+    "description": "Snippets for making easier to start writing vue code and tests",
+    "version": "0.0.1",
+    "engines": {
+        "vscode": "^1.39.0"
+    },
+    "extensionKind": "ui",
+    "categories": [
+        "Snippets"
+    ],
+    "keywords": [
+		"Vue",
+		"Jest",
+		"TypeScript",
+		"Test",
+		"Testing",
+		"TDD",
+		"Easy"
+	],
+    "contributes": {
+        "snippets": [
+            {
+                "language": "typescript",
+                "path": "./snippets/test_snippets.json"
+            }
+        ]
+    }
+}
